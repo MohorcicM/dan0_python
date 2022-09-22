@@ -23,7 +23,7 @@ class Kvadrat(Pravokotnik): #sedaj imama kvadrat enake atribute kot pravokotnik
         super(Kvadrat, self).__init__(a, a)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": # to nam sedaj varuje, da ko example.py importamo v drug file se spodnji del kode ne izvede
     prav = Pravokotnik(5.0, 4.0)
     prav1 = Pravokotnik(5.3, 4.0)
     print(prav.a)
